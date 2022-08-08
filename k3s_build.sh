@@ -36,7 +36,6 @@ update_manifests() {
 }
 
 git clone git@github.com:k3s-io/k3s.git
-
 cd k3s
 
 if [ ${FIPS} ]; then

@@ -4,7 +4,6 @@ ent-k3s:
 
 .PHONY: ent-rancher
 ent-rancher:
-	cd ${GOPATH}/src/github.com/briandowns/rancher
 	./rancher_build.sh
 
 .PHONY: clean
